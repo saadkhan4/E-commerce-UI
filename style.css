@@ -12,24 +12,11 @@
     margin: 0 auto;
 }
 
-.product-card {
-    width: 32px;
-}
 
 .img-section {
     display: flex;
     align-items: start;
     justify-content: space-evenly;
-}
-
-.product-title {
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    text-align: left;
-    margin-bottom: 12px;
-
 }
 
 .product-color {
@@ -44,15 +31,10 @@
     justify-content: space-evenly;
     width: 160px;
 }
-.sub-heading{
-    font-weight: 400;
-    font-size:  14px;
-    margin-top: 24px;
-    margin-bottom: 8px;
-    height: 56px;
-}
+
 .price{
     font-size: 14px;
+    margin-top: 60px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -60,4 +42,89 @@
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
+}
+.product-box2{
+    width: 312px;
+    height: 418px;
+    background: #FFE4BD;
+    border-radius: 5px;
+    margin: 24px;
+    padding: 24px;
+    
+}
+.img-section2{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+.product-img2{
+    display: flex; 
+    align-items: start;
+    justify-content: space-evenly;
+}
+.colors-container2{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 160px;
+}
+.product-color2{
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+}
+.product-box3{
+    height: 418px;
+    width: 312px;
+    background: #D9ABFD;
+    border-radius: 5px;
+    margin: 24px;
+    padding: 24px;
+}
+.product-img3{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.colors-container3{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 90px;
+    
+}
+.product-color3{
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+}
+.price3{
+    font-size: 14px;
+    margin-top: 60px;
+}
+.product-box4{
+    height: 418px;
+    width: 312px;
+    border-radius: 5px;
+    margin: 24px;
+    padding: 24px;
+    background: #FDF0AB;
+
+}
+.product-img4{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.colors-container4{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 160px;
+}
+.product-color4{
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
 }
