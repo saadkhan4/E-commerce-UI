@@ -128,3 +128,17 @@
     width: 16px;
     border-radius: 8px;
 }
+.horizontal-box1{
+    height: 174px;
+    width: 424px;
+    border-radius: 5px;
+    margin-top: 48px;
+    background: #295abb;
+    padding-right: 500px;
+
+}
+.h-img1{
+    display: block;
+    margin: 0 auto;
+
+}
