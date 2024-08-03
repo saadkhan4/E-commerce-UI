@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 .product-box {
   width: 312px;
   height: 418px;
@@ -237,37 +240,79 @@
 .main-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.top-box1 {
+  width: 424px;
+  height: 180px;
+  margin-top: 24px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+}
+.top-boxtext {
+  font-size: 16px;
+  color: white;
+  margin-left: 16px;
+  font-weight: 500;
+}
+.top-box2 {
+  width: 424px;
+  height: 180px;
+  margin-top: 24px;
+  display: flex;
+  align-items: end;
+  margin-left: 24px;
+}
+.top-box3 {
+  width: 424px;
+  height: 180px;
+  margin-top: 24px;
+  display: flex;
+  align-items: end;
+  margin-left: 24px;
+}
+.nav-bar {
+  /* height: 150px; */
 
+  display: flex;
+  padding: 24px 0;
 }
-.top-box1{
-    width: 424px;
-    height: 180px;
-    margin-top: 24px;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: end;
-    
+.logo {
+  margin-left: 70px;
 }
-.top-boxtext{
-    font-size: 16px;
-    color: white;
-    margin-left: 16px;
-    font-weight: 500;
-
+.search-bar {
+  height: 48px;
+  width: 760px;
+  border-radius: 50px;
 }
-.top-box2{
-    width: 424px;
-    height: 180px;
-    margin-top: 24px;
-    display: flex;
-    align-items: end;
-    margin-left: 24px;
+.help-button {
+  height: 48px;
+  width: 88px;
+  border-radius: 50px;
+  background: #eb6d20;
+  margin-left: 24px;
+  margin-right: 13px;
 }
-.top-box3{
-    width: 424px;
-    height: 180px;
-    margin-top: 24px;
-    display: flex;
-    align-items: end;
-    margin-left: 24px;
+.account {
+  margin-left: 5px;
+  /* margin-top: 10px; */
+}
+.shopping {
+  margin-left: 5px;
+}
+.nav {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+.account-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  border: none;
+  background: none;
+}
+header {
+  background: #fff9f3;
 }
