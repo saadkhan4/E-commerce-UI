@@ -10,13 +10,26 @@
   <body>
     <header>
       <div class="nav-bar">
-        <img src="./img/Logo.svg" alt="logo" class="logo" />
-        <input
-          type="text"
+        <img src="./img/Logo.svg" alt="logo" class="logo"/>
+        <label for="items"></label>
+          <select name="items" id="items">
+            <option value="item1">All Categories</option>
+            <option value="item2">item2</option>
+            <option value="item3">item3</option>
+            <option value="item4">item4</option>            
+          </select>
+
+       <div class="input-container">
+         <input
+         type="text"
           id="Search"
           class="search-bar"
-          placeholder="Search anything"
+          placeholder ="Search anything"
+          
           />
+          <img src="./img/Search_alt_duotone_line.svg" class="search-icon" alt="magnifier">
+      
+       </div>
     
         <button class="help-button">help</button>
         <button class="account-btn">
@@ -29,17 +42,34 @@
         </button>
       </div>
       <nav class="nav">
-        <h5>Jewelry & Accessories</h5>
-        <h5>Clothing & Shoes</h5>
-        <h5>Home & Living</h5>
-        <h5>Wedding & Party</h5>
-        <h5>Toys & Entertainment</h5>
-        <h5>Art & Collectibles</h5>
-        <h5>Craft Supplies & Tools</h5>
-      </nav>
+      <ul>
+        <li>Jewelry & Accessories</li>
+        <li>Clothing & Shoes</li>
+        <li>Home & Living</li>
+        <li>Wedding & Party</li>
+        <li>Toys & Entertainment</li>
+        <li>Art & Collectibles</li>
+        <li>Craft Supplies & Tools</li>
+   
+      </ul>  
+        
     </header>
+     <!-- top-box1 -->
+    <div class="main-container">
+      <div class="top-box1" style="background-image: url(./img/shoe1.svg)">
+        <h5 class="top-boxtext">Clothing & Shoes</h5>
+      </div>
+      <!-- top-box2 -->
+      <div class="top-box2" style="background-image: url(./img/livinghome.svg)">
+        <h5 class="top-boxtext">Home & Living</h5>
+      </div>
+      <!--top-box3-->
+      <div class="top-box3" style="background-image: url(./img/animation.svg)">
+        <h5 class="top-boxtext">Art & Collectibles</h5>
+      </div>
+    </div>
     <!-- main div -->
-    <div style="display: flex">
+    <div style="display: flex ;justify-content: space-evenly; margin-top: 25px;">
       <!-- box1 -->
       <!-- <div class="product-box">
         <div class="img-section">
@@ -141,27 +171,16 @@
       </div>
       <!-- boxes completed -->
     </div>
-    <!-- horizontal box1 -->
-    <!-- <div class="horizontal-box1">
-   <div>
-       <h2 class="h-text1">A community doing good</h2>
-      <h5 class="paragraph">
-        Commerce is a global online marketplace, where people.
-      </h5> -->
-    <!-- </div>
-      <div class="h-img1">
-        <img src="/img/roundimg1.svg" alt="round-image" />
-      </div>
-    </div> -->
-    <!-- new row start -->
-    <div class="main-container">
+    
+    <div class="product-container">
       <!-- horizontal-box2 -->
 
       <div class="product_card">
         <span>
           <h2 class="product_title">A community doing good</h2>
           <p class="product_detail">
-            Commerce is a global online marketplace, where people.
+            Just millions of people selling the things they love.
+
           </p>
         </span>
         <span>
@@ -193,20 +212,7 @@
         </div>
       </div>
     </div>
-    <!-- top-box1 -->
-    <div class="main-container">
-      <div class="top-box1" style="background-image: url(./img/shoe1.svg)">
-        <h5 class="top-boxtext">Clothing & Shoes</h5>
-      </div>
-      <!-- top-box2 -->
-      <div class="top-box2" style="background-image: url(./img/livinghome.svg)">
-        <h5 class="top-boxtext">Home & Living</h5>
-      </div>
-      <!--top-box3-->
-      <div class="top-box3" style="background-image: url(./img/animation.svg)">
-        <h5 class="top-boxtext">Art & Collectibles</h5>
-      </div>
-    </div>
+   
     <!-- new row end -->
     <!-- nav-bar start -->
   </body>

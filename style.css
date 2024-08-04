@@ -2,12 +2,13 @@ body {
   margin: 0px;
 }
 .product-box {
-  width: 312px;
-  height: 418px;
+  width: 288px;
+    height: 418px;
   background: #d3fbd9;
   border-radius: 5px;
-  margin: 24px;
-  padding: 24px;
+  padding: 0;
+  margin-right: 24px;
+
 }
 
 .product-img {
@@ -48,11 +49,12 @@ body {
 }
 
 .product-box2 {
-  width: 312px;
+  width: 264px;
   height: 418px;
   background: #ffe4bd;
   border-radius: 5px;
-  margin: 24px;
+  /* margin: 24px; */
+  /* margin-right: 24px; */
   padding: 24px;
 }
 
@@ -83,10 +85,10 @@ body {
 
 .product-box3 {
   height: 418px;
-  width: 312px;
+  width: 264px;
   background: #d9abfd;
   border-radius: 5px;
-  margin: 24px;
+  /* margin-right: 24px; */
   padding: 24px;
 }
 
@@ -116,9 +118,8 @@ body {
 
 .product-box4 {
   height: 418px;
-  width: 312px;
+  width: 264px;
   border-radius: 5px;
-  margin: 24px;
   padding: 24px;
   background: #fdf0ab;
 }
@@ -142,62 +143,25 @@ body {
   border-radius: 8px;
 }
 
-/* .horizontal-box1{
-    height: 174px;
-    width: 424px;
-    border-radius: 5px;
-    margin-top: 48px;
-    background: #F5F6F8;
-    margin-right: 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start 
-    
-
-} */
-
 .h-text1 {
-  /* width: 113px;
-    height: 40px;
-    margin-top: 891px;
-    margin-left: 324px; */
   font-size: 16px;
 }
 
-/* .horizontal-box1{
-    width: 424px;
-    height: 174px;
-    background: #F5F6F8;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} */
 .paragraph {
-  /* width: 176px;
-   height: 32px; */
-  /* display: flex;
-   flex-direction: column; */
   font-size: 12px;
 }
-/* new css start */
-/* .horizontal-box2{
- width: 424px;
- height:174px;
- background: #F5F6F8;
- display: flex;
- align-items: center;
- justify-content: space-around;
- ro
-} */
+
 .product_card {
   height: 175px;
-  width: 500px;
+  width: 424px;
   background: #f5f6f8;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border-radius: 5px;
-  margin-right: 24px;
+  /* margin-right: 24px;
+  margin-top: 48px;
+  margin-left: 35px; */
 }
 .product_title {
   font-size: 16px;
@@ -207,13 +171,15 @@ body {
 }
 .horizontal-box3 {
   height: 174px;
-  width: 500px;
-  background: #f5f6f8;
+  width: 424px;
+    background: #f5f6f8;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 5px;
-  margin-right: 24px;
+  /* margin-right: 30px;
+  margin-top: 48px; */
+
 }
 .product_title3 {
   font-size: 16px;
@@ -223,13 +189,14 @@ body {
 }
 .horizontal-box4 {
   height: 174px;
-  width: 500px;
+  width: 424px;
   background: #f5f6f8;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 5px;
-  margin-right: 24px;
+  /* margin-right: 35px;
+  margin-top: 48px; */
 }
 .product_title4 {
   font-size: 16px;
@@ -240,7 +207,16 @@ body {
 .main-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 97%;
+}
+.product-container{
+   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  
 }
 .top-box1 {
   width: 424px;
@@ -249,6 +225,7 @@ body {
   background-repeat: no-repeat;
   display: flex;
   align-items: end;
+  
 }
 .top-boxtext {
   font-size: 16px;
@@ -283,8 +260,10 @@ body {
 }
 .search-bar {
   height: 48px;
-  width: 760px;
+  width: 600px;
   border-radius: 50px;
+  border: 1px solid black;
+  padding-left: 170px;
 }
 .help-button {
   height: 48px;
@@ -293,6 +272,8 @@ body {
   background: #eb6d20;
   margin-left: 24px;
   margin-right: 13px;
+  border: none;
+  color: white;
 }
 .account {
   margin-left: 5px;
@@ -315,4 +296,37 @@ body {
 }
 header {
   background: #fff9f3;
+}
+.input-container{
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  right: 10px;
+  top: 13px;
+
+}
+select{
+  position: absolute;
+  left: 280px;
+  z-index: 1;
+  height: 32px;
+  width: 154px;
+  border-radius: 50px;
+  top: 33px;
+  border: none;
+  background: #F5F6F8;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 24px 8px 24px;
+
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 91%;
+  font-size: 14px;
+  padding: 0;
 }
