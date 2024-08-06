@@ -330,3 +330,35 @@ ul{
   font-size: 14px;
   padding: 0;
 }
+.email-box{
+  width: 90%;
+  height: 306px;
+  margin-top: 24px;
+  border-radius: 5px;
+  background: #5959D9;
+}
+.email-text{
+  padding: 40px;
+  width: 550px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  line-height: 26px;
+}
+.email{
+
+
+
+}
+.email-bar{
+  width: 648px;
+  height: 48px;
+  border-radius: 50px;
+  border:white;
+  padding-left: 24px;
+  
+
+
+
+
+}
