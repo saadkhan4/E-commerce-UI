@@ -336,6 +336,8 @@ ul{
   margin-top: 24px;
   border-radius: 5px;
   background: #5959D9;
+  margin: 20px auto;
+  padding: 48px 0 48px 0;
 }
 .email-text{
   padding: 40px;
@@ -345,9 +347,19 @@ ul{
   color: white;
   line-height: 26px;
 }
-.email{
-
-
+.sub-button{
+  width: 133px;
+  height: 32px;
+  border-radius: 50px;
+  background: #EB8426;
+  border: white;
+  color: white;
+  position: absolute;
+  right: -15px;
+  top: 7.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
 }
 .email-bar{
@@ -356,7 +368,27 @@ ul{
   border-radius: 50px;
   border:white;
   padding-left: 24px;
+  position: relative;
+  margin: 0 auto;
+
+}
+.order-text{
+  font-weight: 500;
+  color: #D6D6D6;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8px;
   
+  
+
+
+
+
+
+
+
+
 
 
 
