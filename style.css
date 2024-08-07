@@ -337,7 +337,7 @@ ul{
   border-radius: 5px;
   background: #5959D9;
   margin: 20px auto;
-  padding: 48px 0 48px 0;
+  padding: 48px 112px 48px 112px;
 }
 .email-text{
   padding: 40px;
@@ -378,19 +378,5 @@ ul{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 8px;
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
+  margin-top: 20px;
 }
